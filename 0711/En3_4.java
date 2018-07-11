@@ -43,7 +43,7 @@ class En3_4 {
 		System.out.print("要素数:");
 		int num = stdIn.nextInt();
 		int[] x = new int[num];
-		System.out.println("照準に入力してください。");
+		System.out.println("昇順に入力してください。");
 		System.out.print("x[0]:");
 		x[0] = stdIn.nextInt();
 
