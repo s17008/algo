@@ -25,7 +25,7 @@ class En4_6 {
 					}
 					break;
 
-					case 2:
+				case 2:
 					try {
 						x = s.deque();
 						System.out.println("デキューしたデータは" + x + "です。");
@@ -34,7 +34,7 @@ class En4_6 {
 					}
 					break;
 
-					case 3:
+				case 3:
 					try {
 						x = s.peek();
 						System.out.println("ピークしたデータは" + x + "です。");
@@ -43,7 +43,7 @@ class En4_6 {
 					}
 					break;
 
-					case 4:
+				case 4:
 					s.dump();
 					break;
 			}
