@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class En5_2 {
+class En5_1 {
 	static int factorial(int n) {
 		int total = 1;
 		for (int i = 1; i <= n; i++)
