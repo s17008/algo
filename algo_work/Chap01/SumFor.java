@@ -1,0 +1,28 @@
+// 1, 2, …, nの和を求める（for文）
+
+import java.util.Scanner;
+
+class SumFor {
+
+	public static void main(String[] args) {
+		Scanner stdIn = new Scanner(System.in);
+
+		System.out.println("1からnまでの和を求めます。");
+		System.out.print("nの値：");
+		int n = stdIn.nextInt();
+
+		int sum = 0;		// 和
+
+		for (int i = 1; i <= n; i++)
+			sum += i;					// sumにiを加える
+
+//		System.out.println("1から" + n + "までの和は" + sum + "です。");
+
+		for (int i = 1; i <= n; i++) {
+			System.out.print(i);
+			if (i != n)
+				System.out.print("+");
+		}
+		System.out.println("=" + sum);
+	}
+}
